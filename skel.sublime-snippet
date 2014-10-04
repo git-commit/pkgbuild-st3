@@ -14,7 +14,7 @@ makedepends=()
 optdepends=()
 source=()
 install=()
-md5sums=()
+sha256sums=()
 ${0}
 ]]></content>
     <tabTrigger>skel</tabTrigger>
