@@ -1,4 +1,4 @@
-# PKGBUILD tools for Sublime Text 2
+# PKGBUILD tools for Sublime Text 3
 A bunch of random stuff (seriously)hacked together to make PKGBUILDing more  pleasant.
 
 ## Included:
