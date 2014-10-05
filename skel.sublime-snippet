@@ -19,5 +19,5 @@ ${0}
 ]]></content>
     <tabTrigger>skel</tabTrigger>
     <scope>source.PKGBUILD</scope>
-    <description>basic skeleton</description>
+    <description>Basic PKGBUILD skeleton</description>
 </snippet>
