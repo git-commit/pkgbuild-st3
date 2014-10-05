@@ -67,3 +67,16 @@ class NamcapCheckCommand(sublime_plugin.TextCommand):
                     ['namcap', file_name],
                     'working_dir': folder_name,
                     'quiet': False})
+
+
+class mkaurballCommand(sublime_plugin.TextCommand):
+
+    def run(self, edit):
+        if self.view.file_name():
+            folder_name, file_name = os.path.split(self.view.file_name())
+            print(folder_name, file_name)
+            self.view.window().run_command('exec', {
+                'cmd':
+                    ['mkaurball', '-f', '-p', file_name],
+                    'working_dir': folder_name,
+                    'quiet': False})

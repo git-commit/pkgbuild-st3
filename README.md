@@ -10,6 +10,7 @@ A bunch of random stuff (seriously)hacked together to make PKGBUILDing more  ple
     - MD5 generation - `makepkg_gen`
     - Source packaging - `makepkg_src`
     - Package source extraction - `makepkg_ext`
+    - Make a tarball for submission to AUR - `mkaurball`
  - Snippets
 
 ## Install:

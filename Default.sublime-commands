@@ -2,5 +2,6 @@
     { "caption": "PKGBUILD: Namcap validation", "command": "namcap_check" },
     { "caption": "PKGBUILD: Generate checksum", "command": "makepkg_gen" },
     { "caption": "PKGBUILD: Create source package", "command": "makepkg_src" },
-    { "caption": "PKGBUILD: Make package", "command": "makepkg" }
+    { "caption": "PKGBUILD: Make package", "command": "makepkg" },
+    { "caption": "PKGBUILD: Make tarball for AUR (mkaurball)", "command": "mkaurball" }
 ]
